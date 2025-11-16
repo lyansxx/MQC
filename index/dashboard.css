@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+section{
+    padding: 2rem 3rem;
+    margin: auto; 
+    max-width: 1200px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 0 0 0 .2;
+}
+ 
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.logo img{
+    width: 48px;
+    height: 60px;
+}
+
+.navbar a{
+    margin: 0.5rem;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover{
+    color: rgb(32, 31, 31);
+border-bottom: 0.2rem;
+padding-bottom: 0.5rem;
+font-size: 2rem;
+font-family: "Poppins", sans-serif;
+
+}
+
+.icons img{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    height: 54px;
+    width: 54px;
+}
+
+.home-container{
+    background: url(/imgs/baby-18966_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 60rem;
+}
+
+.content h3{
+     color: rgb(0, 0, 0);
+     font-size: 6rem;
+     font-weight: 500;
+}
+
+.content p{
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+    font-weight: 100;
+    padding: 1rem 0;
+
+}
