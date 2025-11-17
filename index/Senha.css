@@ -107,20 +107,3 @@ body {
     color: #fff;
     transition: 0.5s;
 }
-
-.register-link{
-    font-size: 14px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-
-.register-link a {
-    text-decoration: none;
-    color: #535353;
-    font-weight: 600;
-
-}
-
-.register-link a:hover{
-    text-decoration: underline;
-}
